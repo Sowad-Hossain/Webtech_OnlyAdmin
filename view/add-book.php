@@ -8,7 +8,6 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-<!-- fahim: add book table -->
     <form action="" method="post">
     <table class="add-book-table" id="add-book-table">
         <tr>
