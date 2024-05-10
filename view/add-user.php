@@ -8,8 +8,7 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-<!-- fahim: add user table -->
-<!-- ratul: ein dia employee ar manager 2 account e khulte parbi -->
+
     <form action="" method="post">
     <table class="create-user-table" id="create-user-table">
         <tr>
@@ -28,7 +27,7 @@
                 <input type="text" name="password"><br><br>
                 NID <br>
                 <input type="text" name="nid"><br><br>
-                <!-- fahim: Create User button -->
+                
                 <button>Create User</button>
             </td>
         </tr>
