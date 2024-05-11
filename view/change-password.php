@@ -25,7 +25,6 @@ require '../controller/status-message.php'
                     <input type="password" name="npassword"><br><br>
                     Confirm New Password <br>
                     <input type="password" name="cnpassword"><br><br>
-                    <!-- fahim: save changes button -->
                     <button class="save-changes-button" id="save-changes-button">Save Changes</button>
                 </td>
             </tr>
