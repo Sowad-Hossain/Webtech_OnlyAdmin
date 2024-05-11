@@ -8,7 +8,7 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-<!-- fahim: add book table -->
+
     <form action="" method="post">
     <table class="edit-book-info-table" id="edit-book-info-table">
         <tr>
@@ -27,7 +27,7 @@
                 <textarea type="text" name="description"> </textarea><br><br>
                 Stock Quantity <br>
                 <input type="text" name="stock_quantity"><br><br>
-                <!-- fahim: add book button -->
+            
                 <button>Save Changes</button>
             </td>
         </tr>
