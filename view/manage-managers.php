@@ -8,15 +8,12 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-<!-- fahim: manager table -->
-<!-- ratul: fetch kor -->
     <table class="managers-table" id="managers-table">
         <tr>
             <td colspan="5">
                 Manager Details
             </td>
             <td>
-                <!-- ratul: employee create kor notun -->
                 <a href="add-user.php">Add Manager</a>
             </td>
         </tr>
