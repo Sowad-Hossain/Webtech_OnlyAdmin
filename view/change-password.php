@@ -14,9 +14,6 @@ require '../controller/status-message.php'
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
 
-    <!-- fahim: change password table -->
-    <!-- ratul: password verify koira password update kor  => DONE -->
-    <!-- message -->
     <?php if(isset($_GET['status']))  echo get_status_message($_GET['status']) ?>
     <form action="../controller/change-password-controller.php" method="post">
         <table class="change-password-table" id="change-password-table">
