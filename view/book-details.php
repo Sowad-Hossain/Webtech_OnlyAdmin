@@ -8,8 +8,7 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-    <!-- fahim: book table -->
-    <!-- ratul: info fetch kor -->
+    
     <table class="book-table" id="book-table">
         <tr>
             <td>
