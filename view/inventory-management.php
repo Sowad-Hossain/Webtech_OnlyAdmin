@@ -8,15 +8,12 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-<!-- fahim: inventory table -->
-<!-- ratul: fetch kor -->
     <table class="inventory-table" id="inventory-table">
         <tr>
             <td colspan="5">
                 Inventory Details
             </td>
             <td>
-                <!-- ratul: employee create kor notun -->
                 <a href="add-book.php">Add Book</a>
             </td>
         </tr>
