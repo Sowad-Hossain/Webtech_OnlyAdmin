@@ -26,7 +26,7 @@
                 <textarea type="text" name="description"> </textarea><br><br>
                 Stock Quantity <br>
                 <input type="text" name="stock_quantity"><br><br>
-                <!-- fahim: add book button -->
+
                 <button>Add Book</button>
             </td>
         </tr>
