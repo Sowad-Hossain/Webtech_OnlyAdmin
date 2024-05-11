@@ -9,21 +9,19 @@
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
 
-    <!-- ratul: fetch kor -->
+ 
     Invoices 
     Total Earning: TK. 21000 
     Pending: TK. 1000
-    Overdue: TK. 1000 <!-- ratul: hardcoded -->
-    Essentials: TK. 1000 <!-- ratul: hardcoded -->
+    Overdue: TK. 1000
+    Essentials: TK. 1000 
 
-    <!-- ratul: fetch kor -->
+ 
     Total Orders: 
     Orders Pending: 
     Completed Orders:  
     Cancelled Orders: 
 
-    <!-- ratul: fetch kor -->
-    <!-- fahim: last details table -->
     <table class="last-details-table" id="last-details-table">
         <tr>
             <td colspan="5">
