@@ -8,15 +8,12 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-<!-- fahim: manager table -->
-<!-- ratul: fetch kor -->
     <table class="employees-table" id="employees-table">
         <tr>
             <td colspan="4">
                 Employee Details
             </td>
             <td>
-                <!-- ratul: employee create kor notun -->
                 <a href="add-user.php">Add Employee</a>
             </td>
         </tr>
@@ -28,7 +25,7 @@
         </tr>
         <tr>
             <td> 1 </td>
-            <td> Rianul Amin </td>
+            <td> Yasin </td>
             <td> ppsppspsspss </td>
             <td> <a href="view-profile.php">View Details</a> </td>
             <td> <a href="edit-profile-info.php">Update Information</a> </td>
