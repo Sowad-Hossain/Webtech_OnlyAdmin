@@ -2,7 +2,6 @@
 
 require '../controller/status-message.php'
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +12,6 @@ require '../controller/status-message.php'
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-
-
     <?php if(isset($_GET['status']))  echo get_status_message($_GET['status']) ?>
     <form action="../controller/change-password-controller.php" method="post">
         <table class="change-password-table" id="change-password-table">
@@ -25,8 +22,7 @@ require '../controller/status-message.php'
                     New Password <br>
                     <input type="password" name="npassword"><br><br>
                     Confirm New Password <br>
-                    <input type="password" name="cnpassword"><br><br>
-                
+                    <input type="password" name="cnpassword"><br><br>                
                     <button class="save-changes-button" id="save-changes-button">Save Changes</button>
                 </td>
             </tr>
