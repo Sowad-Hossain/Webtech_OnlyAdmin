@@ -9,8 +9,6 @@
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
 
-    <!-- ratul: fetch kor -->
-    <!-- fahim: reporting and analytics table -->
     <table class="reporting-and-analytics-table" id="reporting-and-analytics-table">
         <tr>
             <td>
@@ -24,8 +22,6 @@
             </td>
         </tr>
     </table>
-    <!-- ratul: fetch kor -->
-    <!-- fahim: reporting and analytics table -->
     <table class="order-info-table" id="order-info-table">
         <tr>
             <td colspan="5">

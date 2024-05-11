@@ -18,8 +18,6 @@
 
     <a href="edit-profile-info.php">Edit Profile Info</a>
 
-    <!-- fahim: profile table -->
-    <!-- ratul: info fetch kor -->
     <table class="profile-table" id="profile-table">
         <tr>
             <td>

@@ -9,7 +9,6 @@
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
 
-    <!-- fahim: sobi laga  -->
     <a href="edit-profile-info.php">Edit Profile Info</a>
     <a href="change-password.php">Change Password</a>
 

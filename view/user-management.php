@@ -9,7 +9,6 @@
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
 
-    <!-- fahim: sobi laga  -->
     <a href="manage-managers.php">Manager</a>
     <a href="manage-customers.php">Customer</a>
     <a href="manage-employees.php">Employee</a>

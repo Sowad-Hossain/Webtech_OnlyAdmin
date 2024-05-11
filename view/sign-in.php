@@ -12,7 +12,6 @@
 <body>
     
     <form action="../controller/sign-in-controller.php" method="post">
-    <!-- fahim: login table -->
 
     <!-- message -->
     <?php if(isset($_GET['status']))  echo get_status_message($_GET['status']) ?>
@@ -23,7 +22,6 @@
                 <input type="text" name="username"><br><br>
                 Password <br>
                 <input type="text" name="password"><br><br>
-                <!-- fahim: sign in button -->
                 <button class="sign-in-button" id="sign-in-button">Sign In</button>
             </td>
         </tr>

@@ -1,4 +1,3 @@
-<!-- fahim: admin er left navigation bar -->
 <select name="options" onchange="location = this.value">
     <option disabled selected hidden> Admin Panel </option>
     <option value="view/dashboard.php">Dashboard</option>
