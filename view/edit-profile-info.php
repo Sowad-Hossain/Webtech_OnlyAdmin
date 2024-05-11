@@ -3,9 +3,7 @@
     require_once '../controller/status-message.php';
     session_start();
     $user = $_SESSION['user'];
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +14,6 @@
 <body>
 <?php require_once('navbar.php') ?>
 <?php require_once('side-panel.php') ?>
-
-
     <?php if(isset($_GET['status']))  echo get_status_message($_GET['status']) ?>
     <form action="../controller/edit-profile-info-controller.php" method="post">
         <table class="edit-profile-table" id="edit-profile-table">
@@ -33,7 +29,6 @@
                     <input type="text" name="username" value="<?= $user['username'] ?>"><br><br> 
                     NID <br>
                     <input type="text" name="nid" value="<?= $user['nid'] ?>"><br><br>
-
                     <button class="save-changes-button" id="save-changes-button">Save Changes</button>
                 </td>
             </tr>
